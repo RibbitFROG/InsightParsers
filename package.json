@@ -1,0 +1,29 @@
+{
+  "name": "InsightParsers",
+  "version": "1.0.0",
+  "description": "Parse insight-api databases for valuable info",
+  "main": "allseen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RibbitFROG/InsightParsers.git"
+  },
+  "keywords": [
+    "insight",
+    "insight-api",
+    "bitpay",
+    "copay"
+  ],
+  "author": "Shannon Code",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RibbitFROG/InsightParsers/issues"
+  },
+  "homepage": "https://github.com/RibbitFROG/InsightParsers",
+  "dependencies": {
+    "bitcore-explorers-multi": "git://github.com/RibbitFROG/bitcore-explorers-multi.git",
+    "progress": "^1.1.8"
+  }
+}
