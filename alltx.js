@@ -26,8 +26,8 @@ db.createReadStream()
             var addressJson = {
                 address: address,
                 txid: txid,
-                total: ac$
-
+                total: activity
+            }
                 //accounts with movement
                     if (activity > 0 && address.length == 34) {
                     allWithActivity.push(addressJson)
