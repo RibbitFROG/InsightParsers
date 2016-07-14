@@ -1,5 +1,5 @@
 var levelup = require('levelup')
-var db = levelup('./')
+var db = levelup('./txs/')
 var allAddresses = new Array()
 
 db.createReadStream()
