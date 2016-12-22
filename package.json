@@ -24,6 +24,8 @@
   "homepage": "https://github.com/RibbitFROG/InsightParsers",
   "dependencies": {
     "bitcore-explorers-multi": "git://github.com/RibbitFROG/bitcore-explorers-multi.git",
+    "leveldown": "^1.5.0",
+    "levelup": "^1.3.3",
     "progress": "^1.1.8"
   }
 }
