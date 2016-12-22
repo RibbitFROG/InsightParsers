@@ -1,5 +1,5 @@
 var levelup = require('levelup')
-var db = levelup('./txs/')
+var db = levelup(process.argv[2] || process.env.ParserDir || './txs/')
 var allAddresses = new Array()
 
 db.createReadStream()
